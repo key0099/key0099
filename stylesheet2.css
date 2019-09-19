@@ -1,0 +1,69 @@
+body {
+  margin: 0;
+  font-family: "Hiragino Kaku Gothic ProN";
+}
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color: white;
+  display: block;
+}
+.campanylist a{
+  padding : 40px 0px 50px 30px;
+  color: white;
+  margin-right: 40px;
+  }
+  .footer{
+  background-color: #000000;
+  height: 120px;
+  text-align: center;
+  padding-top : 30px;
+  }
+  .footer p {
+    color: #fff;
+    opacity: 0.7;
+    padding-top : 20px;
+  }
+.Copyright{
+  font-size: 16px;
+  padding-top: 10px;
+}
+.top{
+    padding: 120px 0 120px 0;
+    background-color: #c0c0c0;
+    height: 1200px;
+    text-align: center;
+    opacity: 0.7;
+    letter-spacing: 5px;
+}
+.top h1{
+      font-size: 40px;
+      color: white;
+}
+.top p {
+  text-align: left;
+  padding-left: 40px;
+}
+.send-mail{
+  text-align: left;
+  padding-left: 40px;
+}
